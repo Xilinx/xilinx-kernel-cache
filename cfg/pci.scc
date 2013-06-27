@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "PCI Support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware pci.cfg

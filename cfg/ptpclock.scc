@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable IEEE 1588 percision clock support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware ptpclock.cfg

@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Procevents Support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware procevents.cfg

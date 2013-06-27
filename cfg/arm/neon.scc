@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Arm Neon Support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware neon.cfg

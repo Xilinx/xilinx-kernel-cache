@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Windows Filesystems Support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware windowsfs.cfg

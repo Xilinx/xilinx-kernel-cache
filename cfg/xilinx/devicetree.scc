@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Device tree enablement"
+define KFEATURE_COMPATIBILITY board
+
+kconf non-hardware devicetree.cfg

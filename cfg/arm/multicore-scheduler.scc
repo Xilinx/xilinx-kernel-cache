@@ -1,0 +1,5 @@
+define KFEATURE_DESCRIPTION "Multicore Scheduler Support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware smp.cfg
+kconf non-hardware multicore-scheduler.cfg

@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Xilinx specific ethernet support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware ethernet.cfg

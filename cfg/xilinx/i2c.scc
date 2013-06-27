@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Xilinx I2C Serial Support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware i2c.cfg
