@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "User space IO Interrupt Driver"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware uio-irq.cfg

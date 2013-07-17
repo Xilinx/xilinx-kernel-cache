@@ -1,0 +1,9 @@
+# This enables the Contiguous Memory Allocator which allows drivers to allocate 
+# big physically-contiguous blocks of memory for use with hardware components 
+# that do not support I/O map nor scatter-gather.
+# For more information see <include/linux/dma-contiguous.h>.
+
+define KFEATURE_DESCRIPTION "Contiguous Memory Allocator for Zynq"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware cma.cfg

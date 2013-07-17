@@ -1,4 +1,4 @@
 define KFEATURE_DESCRIPTION "Xilinx Non 8250 Serial Support"
 define KFEATURE_COMPATIBILITY board
 
-kconf hardware serial.cfg
+kconf hardware uart-ps.cfg

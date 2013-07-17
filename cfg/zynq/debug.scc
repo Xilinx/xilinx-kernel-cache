@@ -1,4 +1,5 @@
 define KFEATURE_DESCRIPTION "Xilinx, Zynq Debug Enable"
 define KFEATURE_COMPATIBILITY board
 
-kconf hardware debug.cfg
+kconf hardware cfg/zynq/debug.cfg
+kconf hardware cfg/xilinx/debug.cfg
