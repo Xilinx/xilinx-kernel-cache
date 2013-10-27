@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Kernel GDB"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware kgdb.cfg
